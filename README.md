@@ -1,31 +1,38 @@
-This project showcases an automated Sales & Inventory tracking solution using Excel VBA and Power BI for dynamic business reporting.
+📘 Detailed Project Description
+This project presents a complete Sales & Inventory Tracking System built using Microsoft Excel (with VBA automation) and Power BI. It demonstrates how spreadsheet-driven workflows can be automated and visualized using interactive dashboards — suitable for business users, managers, and analysts.
 
-🔧 Tools & Technologies
-Microsoft Excel (.xlsm) with VBA Macros
-Power BI Desktop (interactive dashboard)
-Windows Game Bar (screen recording)
+✅ Excel Automation (VBA) Features
+Automated inventory status updates based on real-time stock vs. reorder levels
 
+Stock deduction logic triggered by sales data with a “Processed” flag to avoid repeated deductions
 
-⚙️ Excel VBA Features
-✅ Auto-update inventory status based on reorder level
-✅ Stock deduction logic with processed flag to avoid duplicates
-✅ Reorder alert message box on workbook open
-✅ User-friendly buttons for macro execution
+Reorder alerts shown as message boxes when the file is opened, highlighting products needing restock
+
+User-friendly buttons to allow non-technical users to trigger macros easily without accessing the VBA editor
+
 📊 Power BI Dashboard Features
+KPI Cards: Total Sales, Total Orders, and Reorder Alerts
 
-KPI Cards: Total Sales, Total Orders, Reorder Alerts
-Interactive Slicers: Customer, Product, Date
-Visuals: Monthly Sales Trend, Top 5 Products, Payment Status Breakdown
-Table: Inventory items filtered to "Reorder" status
+Interactive Slicers: Filter data by Customer, Product, and Date
 
-🎥 Demo Video
-A 45-second video demo of dashboard interactivity is available in Media/dashboard_demo.mp4.
+Visuals:
 
-📄 One-Page Report
-Summary of project objectives, tools, and features is available in Report/Sales_Inventory_Project_Report.docx.
+Top 5 Products by Quantity Sold (Bar Chart)
 
+Monthly Sales Trend (Line/Area Chart)
 
-🔗 Author
-Manjiri Gajmal
-Data Scientist | Excel & Power BI Expert
-LinkedIn | GitHub
+Payment Status Breakdown (Donut Chart: Paid, Partial, Unpaid)
+
+Reorder Inventory Table: Auto-filtered to show only low-stock items
+
+All visuals are cross-filtered and responsive to slicer or chart interactions
+
+📦 Project Deliverables
+🗂️ .xlsm file with full VBA automation
+
+📊 Power BI .pbix dashboard connected to Excel
+
+🎥 Short demo video showing dashboard interactivity
+
+📄 One-page project report outlining features and tools used
+
